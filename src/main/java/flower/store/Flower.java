@@ -18,4 +18,10 @@ public class Flower {
     public String getColor() {
         return color.toString();
     }
+    public Flower(Flower flower ){
+        this.flowerType = flower. flowerType;
+        this.price = flower.price;
+        this.sepalLength = flower.sepalLength;
+        this.color = flower.color;
+    }
 }
