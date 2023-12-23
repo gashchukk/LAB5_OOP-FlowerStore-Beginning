@@ -9,8 +9,8 @@ public class FlowerPack {
     private Flower flower;
     private int quantity;
 
-    public void setQuantity(int quantity) {
-        this.quantity = Math.max(quantity, 1);
+    public void setQuantity(int newQuantity) {
+        this.quantity = Math.max(newQuantity, 1);
     }
 
     public double getPrice() {
