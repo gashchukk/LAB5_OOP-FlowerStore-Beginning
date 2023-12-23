@@ -18,9 +18,12 @@ public class Flower {
     }
 
     public Flower(Flower flower) {
-        this.flowerType = flower.flowerType;
-        this.price = flower.price;
         this.sepalLength = flower.sepalLength;
         this.color = flower.color;
+        this.price = flower.price;
+        this.flowerType = flower.flowerType;
+        
+       
+        
     }
 }
