@@ -10,7 +10,7 @@ public class FlowerPack {
     private int quantity;
 
     public void setQuantity(int quantity) {
-        this.quantity = quantity < 1 ? 1 : quantity;
+        this.quantity = Math.max(quantity, 1);
     }
 
     public double getPrice() {
